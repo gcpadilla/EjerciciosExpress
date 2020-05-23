@@ -26,3 +26,6 @@ app.use(function (req, res, next) {
 app.listen(port, () =>
 	console.log(`app listening at http://localhost:${port}`)
 );
+// DB_HOST=localhost
+// DB_NAME=Ejercicios
+// SECRET_KEY=
