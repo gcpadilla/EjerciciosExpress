@@ -1,13 +1,13 @@
 //************************************************************************************************************
-require("dotenv").config();
-
 const express = require("express");
+
+require("dotenv").config();
 //const cors = require("cors");
 const morgan = require("morgan");
 const app = express();
 const port = 3000;
 
-//app.use(cors());
+// app.use(cors());
 app.use(morgan("dev"));
 app.use(express.json());
 
